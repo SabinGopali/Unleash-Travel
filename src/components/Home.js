@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 export default function Home() {
   return (
     <>
@@ -36,7 +36,7 @@ export default function Home() {
                       </div>
                       <div className="col-lg-3 col-sm-6 col-6">
                         <div className="main-button">
-                          <a href="about.html">Explore More</a>
+                          <Link to="/About">Explore More</Link>
                         </div>
                       </div>
                     </div>
@@ -72,7 +72,7 @@ export default function Home() {
                       </div>
                       <div className="col-lg-3 col-sm-6 col-6">
                         <div className="main-button">
-                          <a href="about.html">Explore More</a>
+                          <Link to="/About">Explore More</Link>
                         </div>
                       </div>
                     </div>
@@ -108,7 +108,7 @@ export default function Home() {
                       </div>
                       <div className="col-lg-3 col-sm-6 col-6">
                         <div className="main-button">
-                          <a href="about.html">Explore More</a>
+                          <Link to="/About">Explore More</Link>
                         </div>
                       </div>
                     </div>
@@ -203,9 +203,7 @@ export default function Home() {
                           <li><i className="fa fa-globe"></i> 3,573 km<em>2</em></li>
                           <li><i className="fa fa-home"></i> Rs.75000</li>
                         </ul>
-                        <div className="text-button">
-                          <a href="about.html">Need Directions ? <i className="fa fa-arrow-right"></i></a>
-                        </div>
+                        
                       </div>
                     </div>
                   </div>
@@ -227,15 +225,13 @@ export default function Home() {
                         </div>
                         <p>Manaslu, the eighth-highest mountain in the world (8,163m), is a hidden gem in Nepal, 
                             offering breathtaking Himalayan views, rich Tibetan culture, and the adventurous Manaslu 
-                            Circuit Trek</p>
+                            Circuit Trek.</p>
                         <ul className="info">
                           <li><i className="fa fa-user"></i> 10,124 People</li>
                           <li><i className="fa fa-globe"></i> 642 sq mi</li>
                           <li><i className="fa fa-home"></i> Rs.105000</li>
                         </ul>
-                        <div className="text-button">
-                          <a href="about.html">Need Directions ? <i className="fa fa-arrow-right"></i></a>
-                        </div>
+                        
                       </div>
                     </div>
                   </div>
@@ -258,15 +254,13 @@ export default function Home() {
                         <p>Annapurna is a mountain range in the Himalayas, located in Nepal. 
                              is home to some of the highest peaks in the world, with Annapurna I being the 10th highest mountain, 
                              standing at 8,091 meters (26,545 feet). Known for its stunning beauty and 
-                             challenging climbing conditions</p>
+                             challenging climbing conditions.</p>
                         <ul className="info">
                           <li><i className="fa fa-user"></i> 7500 People</li>
                           <li><i className="fa fa-globe"></i> 2,946 sq mi</li>
                           <li><i className="fa fa-home"></i> Rs.500000</li>
                         </ul>
-                        <div className="text-button">
-                          <a href="about.html">Need Directions ? <i className="fa fa-arrow-right"></i></a>
-                        </div>
+                        
                       </div>
                     </div>
                   </div>
@@ -288,21 +282,7 @@ export default function Home() {
     </div>
   </div>
 
-  <div className="call-to-action">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-8">
-          <h2>Are You Looking To Travel ?</h2>
-          <h4>Make A Reservation By Clicking The Button</h4>
-        </div>
-        <div className="col-lg-4">
-          <div className="border-button">
-            <a href="reservation.html">Book Yours Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
 
   
 

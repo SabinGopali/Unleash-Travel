@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Header(props) {
   return (
@@ -15,10 +16,10 @@ export default function Header(props) {
 </a>
                     
                     <ul className="nav">
-                        <li><a href="index.html" className="active">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="deals.html">Deals</a></li>
-                        <li><a href="reservation.html">Reservation</a></li>
+                        <li><Link className="active" to="/" >Home</Link></li>
+                        <li><Link to="/About" >About</Link></li>
+                        <li><Link to="/Deals">Deals</Link></li>
+                        <li><Link to="/Reservation">Reservation</Link></li>
                     </ul>   
                     <a className='menu-trigger'>
                         <span>Menu</span>

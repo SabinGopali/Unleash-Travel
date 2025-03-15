@@ -189,17 +189,25 @@
 
 	function onScroll(event) {
 		var scrollPos = $(document).scrollTop();
+	
 		$('.nav a').each(function () {
 			var currLink = $(this);
-			var refElement = $(currLink.attr("href"));
+			var href = currLink.attr("href");
 	
-			// Ensure refElement exists and has a position
-			if (refElement.length && refElement.position()) {
-				if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-					$('.nav ul li a').removeClass("active");
-					currLink.addClass("active");
-				} else {
-					currLink.removeClass("active");
+			// Ensure href is valid and not "/"
+			if (href && href !== "/" && href !== "#" && href.startsWith("#")) {
+				var refElement = $(href);
+	
+				if (refElement.length && refElement.position()) {
+					if (
+						refElement.position().top <= scrollPos &&
+						refElement.position().top + refElement.height() > scrollPos
+					) {
+						$('.nav ul li a').removeClass("active");
+						currLink.addClass("active");
+					} else {
+						currLink.removeClass("active");
+					}
 				}
 			}
 		});

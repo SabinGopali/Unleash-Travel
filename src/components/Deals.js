@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Deals() {
   return (
@@ -197,15 +198,7 @@ export default function Deals() {
             </div>
           </div>
         </div>
-        <div className="col-lg-12">
-          <ul className="page-numbers">
-            <li><a href="#"><i className="fa fa-arrow-left"></i></a></li>
-            <li><a href="#">1</a></li>
-            <li className="active"><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#"><i className="fa fa-arrow-right"></i></a></li>
-          </ul>
-        </div>
+        
       </div>
     </div>
   </div>
