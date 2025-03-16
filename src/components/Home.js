@@ -193,7 +193,7 @@ export default function Home() {
                         <h4 className='text-white'>MUSTANG</h4>
                         
                         <div className="main-button">
-                          <a href="about.html">Explore More</a>
+                          <Link to="/Deals">Explore More</Link>
                         </div>
                         <p>Mustang, Nepal, is a stunning region known for its rugged landscapes, ancient monasteries,
                              and Tibetan-influenced culture. Nestled in the Himalayas, it offers breathtaking views, 
@@ -221,7 +221,7 @@ export default function Home() {
                       <div className="right-content">
                         <h4 className='text-white'>MANASLU</h4>
                         <div className="main-button">
-                          <a href="about.html">Explore More</a>
+                        <Link to="/Deals">Explore More</Link>
                         </div>
                         <p>Manaslu, the eighth-highest mountain in the world (8,163m), is a hidden gem in Nepal, 
                             offering breathtaking Himalayan views, rich Tibetan culture, and the adventurous Manaslu 
@@ -249,7 +249,7 @@ export default function Home() {
                       <div className="right-content">
                         <h4 className='text-white'>ANNAPURNA</h4>
                         <div className="main-button">
-                          <a href="about.html">Explore More</a>
+                        <Link to="/Deals">Explore More</Link>
                         </div>
                         <p>Annapurna is a mountain range in the Himalayas, located in Nepal. 
                              is home to some of the highest peaks in the world, with Annapurna I being the 10th highest mountain, 

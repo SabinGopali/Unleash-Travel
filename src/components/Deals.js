@@ -10,68 +10,20 @@ export default function Deals() {
         <div className="col-lg-12">
           <h4>Discover Our Weekly Offers</h4>
           <h2>Amazing Prices &amp; More</h2>
-          <div className="border-button"><a href="about.html">Discover More</a></div>
         </div>
       </div>
     </div>
   </div>
 
-  <div className="search-form">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12">
-          <form id="search-form" name="gs" method="submit" role="search" action="#">
-            <div className="row">
-              <div className="col-lg-2">
-                <h4>Sort Deals By:</h4>
-              </div>
-              <div className="col-lg-4">
-                  <fieldset>
-                      <select name="Location" className="form-select" aria-label="Default select example" id="chooseLocation" onChange="this.form.click()">
-                          <option selected>Destinations</option>
-                          <option type="checkbox" name="option1" value="Italy">Italy</option>
-                          <option value="France">France</option>
-                          <option value="Switzerland">Switzerland</option>
-                          <option value="Thailand">Thailand</option>
-                          <option value="Australia">Australia</option>
-                          <option value="India">India</option>
-                          <option value="Indonesia">Indonesia</option>
-                          <option value="Malaysia">Malaysia</option>
-                          <option value="Singapore">Singapore</option>
-                      </select>
-                  </fieldset>
-              </div>
-              <div className="col-lg-4">
-                  <fieldset>
-                      <select name="Price" className="form-select" aria-label="Default select example" id="choosePrice" onChange="this.form.click()">
-                          <option selected>Price Range</option>
-                          <option value="100">$100 - $250</option>
-                          <option value="250">$250 - $500</option>
-                          <option value="500">$500 - $1,000</option>
-                          <option value="1000">$1,000 - $2,500</option>
-                          <option value="2500+">$2,500+</option>
-                      </select>
-                  </fieldset>
-              </div>
-              <div className="col-lg-2">                        
-                  <fieldset>
-                      <button className="border-button">Search Results</button>
-                  </fieldset>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
+ 
 
   <div className="amazing-deals">
     <div className="container">
       <div className="row">
         <div className="col-lg-6 offset-lg-3">
           <div className="section-heading text-center">
-            <h2>Best Weekly Offers In Each City</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <h2 className='text-white'>Best Weekly Offers In Each City</h2>
+            <p>"Unbeatable Deals, Unforgettable Journeys!"</p>
           </div>
         </div>
         <div className="col-lg-6 col-sm-6">
@@ -85,7 +37,7 @@ export default function Deals() {
               <div className="col-lg-6 align-self-center">
                 <div className="content">
                   <span className="info">*Limited Offer Today</span>
-                  <h4>Glasgow City Lorem</h4>
+                  <h4>Pokhara City</h4>
                   <div className="row">
                     <div className="col-6">
                       <i className="fa fa-clock"></i>
@@ -96,9 +48,9 @@ export default function Deals() {
                       <span className="list">Daily Places</span>
                     </div>
                   </div>
-                  <p>Lorem ipsum dolor sit amet dire consectetur adipiscing elit.</p>
+                  <p>"Pokhara – Where nature meets adventure, with serene lakes and stunning Himalayan views!"</p>
                   <div className="main-button">
-                    <a href="reservation.html">Make a Reservation</a>
+                    <Link to="/Reservation">Make a Reservation</Link>
                   </div>
                 </div>
               </div>
@@ -116,7 +68,7 @@ export default function Deals() {
               <div className="col-lg-6 align-self-center">
                 <div className="content">
                   <span className="info">*Today & Tomorrow Only</span>
-                  <h4>Venezia Italy Ipsum</h4>
+                  <h4>Lumbini</h4>
                   <div className="row">
                     <div className="col-6">
                       <i className="fa fa-clock"></i>
@@ -127,9 +79,9 @@ export default function Deals() {
                       <span className="list">Daily Places</span>
                     </div>
                   </div>
-                  <p>Lorem ipsum dolor sit amet dire consectetur adipiscing elit.</p>
+                  <p>"Lumbini – The sacred birthplace of Buddha, where peace and spirituality shine."</p>
                   <div className="main-button">
-                    <a href="reservation.html">Make a Reservation</a>
+                  <Link to="/Reservation">Make a Reservation</Link>
                   </div>
                 </div>
               </div>
@@ -141,13 +93,13 @@ export default function Deals() {
             <div className="row">
               <div className="col-lg-6">
                 <div className="image">
-                  <img src="assets/images/deals-03.jpg" alt=""/>
+                  <img src="assets/images/deals-03.jpeg" alt=""/>
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content">
                   <span className="info">**Undefined</span>
-                  <h4>Glasgow City Lorem</h4>
+                  <h4>Bhaktapur Durbar Square</h4>
                   <div className="row">
                     <div className="col-6">
                       <i className="fa fa-clock"></i>
@@ -158,9 +110,9 @@ export default function Deals() {
                       <span className="list">Daily Places</span>
                     </div>
                   </div>
-                  <p>Lorem ipsum dolor sit amet dire consectetur adipiscing elit.</p>
+                  <p>"Bhaktapur Durbar Square – A living museum of art, culture, and timeless heritage."</p>
                   <div className="main-button">
-                    <a href="reservation.html">Make a Reservation</a>
+                  <Link to="/Reservation">Make a Reservation</Link>
                   </div>
                 </div>
               </div>
@@ -171,14 +123,14 @@ export default function Deals() {
           <div className="item">
             <div className="row">
               <div className="col-lg-6">
-                <div className="image">
-                  <img src="assets/images/deals-04.jpg" alt=""/>
+              <div className="image ">
+                  <img src="assets/images/deals-04.png" alt=""/>
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content">
                   <span className="info">*Offer Until 24th March</span>
-                  <h4>Glasgow City Lorem</h4>
+                  <h4>Manang</h4>
                   <div className="row">
                     <div className="col-6">
                       <i className="fa fa-clock"></i>
@@ -189,9 +141,9 @@ export default function Deals() {
                       <span className="list">Daily Places</span>
                     </div>
                   </div>
-                  <p>This free CSS template is provided by Template Mo website.</p>
+                  <p>"Manang – A Himalayan paradise of rugged landscapes, ancient culture, and breathtaking adventures."</p>
                   <div className="main-button">
-                    <a href="reservation.html">Make a Reservation</a>
+                  <Link to="/Reservation">Make a Reservation</Link>
                   </div>
                 </div>
               </div>
@@ -203,21 +155,7 @@ export default function Deals() {
     </div>
   </div>
 
-  <div className="call-to-action">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-8">
-          <h2>Are You Looking To Travel ?</h2>
-          <h4>Make A Reservation By Clicking The Button</h4>
-        </div>
-        <div className="col-lg-4">
-          <div className="border-button">
-            <a href="reservation.html">Book Yours Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
     </>
   )
 }

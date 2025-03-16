@@ -21,9 +21,7 @@ export default function Header(props) {
                         <li><Link to="/Deals">Deals</Link></li>
                         <li><Link to="/Reservation">Reservation</Link></li>
                     </ul>   
-                    <a className='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
+                    
                     
                 </nav>
             </div>
